@@ -3,7 +3,7 @@ let dia1 = 24
 console.log(24 * 2 + 5)
 
 /* objeto
-let listaDeCompras = {
+let listaDeComprasx = {
 }
 
 //array
