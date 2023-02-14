@@ -1,0 +1,15 @@
+Uma tabela verdade é uma tabela que mostra todas as combinações possíveis de valores verdadeiros (verdadeiro) e falsos (falso) para uma determinada expressão lógica. Por exemplo, aqui está a tabela verdade para a operação lógica "E" (AND):
+
+Operando 1 | Operando 2 | Resultado
+Verdadeiro | Verdadeiro | Verdadeiro
+Verdadeiro | Falso | Falso
+Falso | Verdadeiro | Falso
+Falso | Falso | Falso
+
+E aqui está a tabela verdade para a operação lógica "OU" (OR):
+
+Operando 1 | Operando 2 | Resultado
+Verdadeiro | Verdadeiro | Verdadeiro
+Verdadeiro | Falso | Verdadeiro
+Falso | Verdadeiro | Verdadeiro
+Falso | Falso | Falso
