@@ -1,4 +1,4 @@
-//Entrada
+//Entrada.
 let precoDoProduto = Number(prompt('Insira o valor do produto: '))
 //Processamento
 let dezPorcento = Number(precoDoProduto * 0.10)
