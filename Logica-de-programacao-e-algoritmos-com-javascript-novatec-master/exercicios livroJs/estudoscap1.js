@@ -1,18 +1,23 @@
-//Entrada.
-let precoDoProduto = Number(prompt('Insira o valor do produto: '))
-//Processamento
-let dezPorcento = Number(precoDoProduto * 0.10)
-let precoAvista = Number(precoDoProduto - dezPorcento)
-let vezes3 = Number(precoDoProduto / 3)
 
-//saída
-alert(
-  `Pagamento a vista com 10% de desconto é de: ${precoAvista}
-O pagamento a prazo é em até 3x de: ${vezes3}
-  
-  `)
+
 
 /*
+d) pode Elaborar um programa que leia 2 notas de um aluno em uma disciplina.
+Calcule e informe a média das notas?
+
+Exemplo:
+1ª Nota: 7.0
+2ª Nota: 8.0
+Média: 7.5
+
+//Entrada.
+let nota1 = parseFloat(prompt('Insira sua primeira nota: '))
+let nota2 = parseFloat(prompt('Insira sua segunda nota: '))
+//Processamento
+let media = parseFloat(nota1 + nota2) / 2
+//saída
+alert(media)
+--------------------------------------------------------------------
 c) Elaborar um programa para uma loja, o qual leia o preço de um produto e
 informe as opções de pagamento da loja. Calcule e informe o valor para
 pagamento à vista com 10% de desconto e o valor em 3x.
@@ -20,6 +25,19 @@ Exemplo:
 Preço R$: 60.00
 À Vista R$: 54.00
 Ou 3x de R$: 20.00
+
+//Entrada.
+let precoDoProduto = Number(prompt('Insira o valor do produto: '))
+//Processamento
+let dezPorcento = Number(precoDoProduto * 0.10)
+let precoAvista = Number(precoDoProduto - dezPorcento)
+let vezes3 = Number((precoDoProduto / 3).toFixed(2))
+
+//saída
+alert(
+  `O Valor a vista com 10% de desconto é de ${precoAvista} reais.
+O pagamento a prazo é em até 3x de ${vezes3} reais.
+`)
 ---------------------------------------------------
 b) Elaborar um programa para uma pizzaria, o qual leia o valor total de
 uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser
