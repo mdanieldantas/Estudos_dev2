@@ -18,7 +18,7 @@ x = undefined; // Undefined é como null.
 // O tipo de dados mais importante de JavaScript é o objeto.
 // Um objeto é uma coleção de pares nome/valor ou uma string para mapa de valores.
 var book = { // Objetos são colocados entre chaves.
-  topic: "JavaScript", // A propriedade "topic" tem o valor "JavaScript".
+  topic: "JavaScript", // A propriedade "topic" tem o valor "JavaScript"..
   fat: true // A propriedade "fat" tem o valor true.
 }; // A chave marca o fim do objeto.
 // Acesse as propriedades de um objeto com . ou []:
