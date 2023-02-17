@@ -1,8 +1,16 @@
+//Entrada
+let precoDoProduto = Number(prompt('Insira o valor do produto: '))
+//Processamento
+let dezPorcento = Number(precoDoProduto * 0.10)
+let precoAvista = Number(precoDoProduto - dezPorcento)
+let vezes3 = Number(precoDoProduto / 3)
 
-
-
-
-
+//saída
+alert(
+  `Pagamento a vista com 10% de desconto é de: ${precoAvista}
+O pagamento a prazo é em até 3x de: ${vezes3}
+  
+  `)
 
 /*
 c) Elaborar um programa para uma loja, o qual leia o preço de um produto e
