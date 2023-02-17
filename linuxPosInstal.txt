@@ -1,0 +1,174 @@
+# Ubuntu Pós Instal fonte Diolinux
+
+[https://www.youtube.com/watch?v=LthtzNow_6I&ab_channel=Diolinux](https://www.youtube.com/watch?v=LthtzNow_6I&ab_channel=Diolinux)
+
+[https://diolinux.com.br/sistemas-operacionais/ubuntu/customizacao-otimizacao-ubuntu.html](https://diolinux.com.br/sistemas-operacionais/ubuntu/customizacao-otimizacao-ubuntu.html)
+
+## Instalar Drivers Proprietarios (placa de vídeo etc )
+
+[https://diolinux.com.br/sistemas-operacionais/como-instalar-drivers-nvidia-ubuntu-tutorial.html](https://diolinux.com.br/sistemas-operacionais/como-instalar-drivers-nvidia-ubuntu-tutorial.html)
+
+Caso você queira usar o driver “**testado**” abra o terminal e digite:
+
+```
+sudo ubuntu-drivers autoinstall
+```
+
+Para ter certeza de quais versões estão disponíveis no repositório, use o comando:
+
+```
+apt search nvidia-*
+```
+
+Lembre-se que depois do driver ser instalado é necessário reiniciar o computador, isso também pode ser feito com um comando no terminal:
+
+```
+sudo reboot
+```
+
+Depois da reinicialização, já que estamos falando de terminal, use o comando…
+
+```
+nvidia-smi
+```
+
+…para ver as informações sobre a sua placa.
+
+## **Codecs**
+
+Outra coisa importante de garantir é a compatibilidade com arquivos de mídia, especialmente para quem trabalha com produção de conteúdo, por isso, o pacote **ubuntu-restricted-extras** acaba funcionando muito bem.
+
+Você pode instalar todos os codecs que precisar pela loja de aplicativos, em  modo gráfico, sem terminal, mas se preferir fazer pelo terminal:
+
+```
+sudo apt install ubuntu-restricted-extras
+```
+
+## **Flatpak**
+
+[https://flatpak.org/setup/](https://flatpak.org/setup/)
+
+Eu utilizo vários [**pacotes Flatpak**](https://www.diolinux.com.br/2017/06/como-instalar-o-suporte-flatpak-nas-distros-linux.html) também, por isso habilito eles, [**como mostramos neste post](https://www.diolinux.com.br/2017/06/como-instalar-o-suporte-flatpak-nas-distros-linux.html),** e instalo alguns softwares.
+
+No caso do Ubuntu 19.04, é possível instalar e habilitar o repositório flathub para instalar pacotes da loja de aplicativos assim:
+
+```
+sudo apt install flatpak
+```
+
+```
+sudo apt install gnome-software-plugin-flatpak
+```
+
+```
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+E instalo o OBS Studio (que funciona com o NVENC e Linux Browser) e o GIMP dessa forma:
+
+```
+flatpak install flathub com.obsproject.Studio
+```
+
+```
+flatpak install flathub org.gimp.GIMP
+```
+
+No caso do GIMP, também instalo o nosso patch, [**PhotoGIMP**](https://www.diolinux.com.br/2018/11/photogimp-v2018-o-gimp-para-quem-vem-do-photoshop.html).
+
+[https://diolinux.com.br/sistemas-operacionais/photogimp-v2018-o-gimp-para-quem-vem-do-photoshop.html](https://diolinux.com.br/sistemas-operacionais/photogimp-v2018-o-gimp-para-quem-vem-do-photoshop.html)
+
+## ****instalar extensões do Gnome Shell****
+
+[https://www.edivaldobrito.com.br/extensoes-do-gnome-no-ubuntu-17-10/](https://www.edivaldobrito.com.br/extensoes-do-gnome-no-ubuntu-17-10/)
+
+Passo 2. Se você usa o Google Chrome, o Chromium ou o Vivaldi, instale o complemento via [web Chrome Store](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep);
+
+abaixo;
+
+```
+sudo apt install chrome-gnome-shell
+```
+
+[https://extensions.gnome.org/extension/906/sound-output-device-chooser/](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+
+[https://extensions.gnome.org/extension/921/multi-monitors-add-on/](https://extensions.gnome.org/extension/921/multi-monitors-add-on/)
+
+[https://extensions.gnome.org/extension/5597/multi-monitor-swap/](https://extensions.gnome.org/extension/5597/multi-monitor-swap/)
+
+## Homebrew
+
+[Homebrew](https://brew.sh/)
+
+## NVM, NPM e NODE JS
+
+[https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+
+Node js
+
+node js nvm install no WSL2
+
+[https://learn.microsoft.com/pt-br/windows/dev-environment/javascript/nodejs-on-wsl](https://learn.microsoft.com/pt-br/windows/dev-environment/javascript/nodejs-on-wsl)
+
+## SASS
+
+[Install Sass](https://sass-lang.com/install)
+
+`npm install -g sass`
+
+## Git
+
+sudo apt update
+
+sudo apt upgrade
+
+[Git](https://git-scm.com/)
+
+[https://github.com/shiftkey/desktop](https://github.com/shiftkey/desktop)
+
+link git  desk 
+
+[https://github.com/shiftkey/desktop/releases/tag/release-3.1.1-linux1](https://github.com/shiftkey/desktop/releases/tag/release-3.1.1-linux1)
+
+## APPs
+
+Lutris 
+
+[https://flathub.org/apps/details/net.lutris.Lutris](https://flathub.org/apps/details/net.lutris.Lutris)
+
+Virtual box
+
+[Linux_Downloads - Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
+
+discord
+
+[Download Discord to Talk, Chat, and Hang Out](https://discord.com/download)
+
+Quando o terminal abrir, execute o comando abaixo para instalá-lo:
+
+```
+sudo apt install gnome-sushi
+```
+
+visual studio
+
+[https://code.visualstudio.com/docs/?dv=linux64_deb](https://code.visualstudio.com/docs/?dv=linux64_deb)
+
+Ajustar configuração do Naltilu (visualidador de pastaes)
+
+ver no video ,
+
+[Como eu faço a minha instalação do Ubuntu? - Dicas e Otimizações - Diolinux](https://diolinux.com.br/sistemas-operacionais/ubuntu/customizacao-otimizacao-ubuntu.html)
+
+# LINKS APPS
+
+- **[Telegram](https://www.diolinux.com.br/2016/05/como-instalar-o-telegram-desktop-no-linux.html)**
+- **[Gnome-Sushi](https://www.diolinux.com.br/2014/10/gnome-sushi-preview-de-arquivos-no-nautilus-ubuntu.html)**
+- **[Steam](https://www.youtube.com/watch?v=3JeoO9oe9oo)**
+- **[Proton](https://www.youtube.com/watch?v=llQwRZyltpY)**
+- **[Lutris e Wine](https://www.diolinux.com.br/2019/01/novo-lutris-05-beta-chega-com.html)**
+- **[Dropbox](https://plus.diolinux.com.br/t/como-fazer-um-servidor-nextcloud-dropbox-like-com-o-ubuntu-server-tutorial/1492)**
+- **[Insync](https://www.diolinux.com.br/2018/10/google-drive-para-linux-com-insync.html)**
+- **[Simplenote](https://www.diolinux.com.br/2016/08/simplenote-evernote-alternative-ubuntu-linux.html)**
+- **[Flameshot](https://www.diolinux.com.br/2018/09/flameshot-ferramenta-printscreen-linux.html)**
+- **[Piper](https://www.diolinux.com.br/2019/05/configure-o-seu-mouse-logitech-no-linux.html)**
