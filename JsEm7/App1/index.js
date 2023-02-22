@@ -98,7 +98,7 @@ console.log(lastName);
 let corDosOlhos = 'azul';
 console.log('A Cor dos olhos é: ' + corDosOlhos);
 
-//let price = 30;
+///let price = 30;
 //price = 20;
 const price = 30;
 console.log(price);
