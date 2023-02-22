@@ -1,8 +1,79 @@
 
+let airportName = 'ACV'
+switch (airportName) {
+  case 'MCO':
+    console.log('Orlando ')
+    break
+
+  case 'JFK':
+    console.log('John F. Kennedy ')
+    break
+
+  case 'SEA':
+    console.log('Seattle')
+    break
+  default:
+    console.log('Unknown')
+}
+
+/*
+let driverSpeed = 40
+
+if (driverSpeed > 110) {
+  console.log('Driving too Fast ')
+}
+
+else if (driverSpeed > 40 && driverSpeed <= 110) {
+  console.log('Ok')
+}
+
+else
+
+  console.log('Driving too Slow')
+
+
+let num1 = (3 + 4) * 2
+
+console.log(num1)
+
+let corCliente = undefined
+let corEstoque = 'black'
+let corVendida = corCliente || corEstoque
+
+console.log(corVendida) 
+let temidadeMinima = true
+let temTituloDeEleitor = true
+
+let podeVotar = temTituloDeEleitor && temidadeMinima
+
+console.log(podeVotar)
+
+let podeViajar = podeVotar
+console.log('Pode viajar ' + podeViajar)
+
+
+let driver = 120
+
+let speed = driver > 110 ? 'Above' : 'Below'
+console.log(speed)
+
+
+
+let num1 = '1'
+let num2 = 1
+console.log(num1 === num2)
+
+
+let num1 = 3
+let num2 = 2
+let total = num1 + num2
+console.log(total++)
+console.log(total)
+
 let dia1 = 24
 console.log(24 * 2 + 5)
 
-/* objeto
+objeto
 let listaDeComprasx = {
 }
 
@@ -16,7 +87,6 @@ function celular() {
 }
 celular()
 
-/*
 ----------------------------------------------
 console.log('Java Script ok!');
 
