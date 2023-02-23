@@ -1,4 +1,19 @@
 
+let siglasEstados = 'CE'
+
+switch (siglasEstados) {
+  case 'SP':
+    console.log('São Paulo')
+    break
+
+  case 'CE':
+    console.log('Ceará')
+    break
+
+}
+
+/*
+
 let airportName = 'ACV'
 switch (airportName) {
   case 'MCO':
@@ -15,8 +30,7 @@ switch (airportName) {
   default:
     console.log('Unknown')
 }
-
-/*
+-----------------------------------
 let driverSpeed = 40
 
 if (driverSpeed > 110) {
