@@ -1,3 +1,72 @@
+/*
+const movies = [
+  { id: 1, movieName: 'Dejavu' },
+  { id: 2, movieName: 'Back to the Future' },
+  { id: 3, movieName: 'The Matrix' }
+]
+console.log(movies.includes({ id: 1, movieName: 'Dejavu' }))
+console.log(movies.find(function (movie) {
+  return movie.movieName == 'The Matrix'
+}
+))
+-------------------
+
+const num = [7, 8, 9]
+console.log(num.includes(3))
+------------------------------
+const num = [7, 8, 9]
+
+num.push(10, 11, 12)
+num.unshift(1, 2, 3)
+num.splice(3, 0, 4, 5, 6)
+
+
+console.log(num)
+-----------------------------------------------------
+
+let friends = ['Marcos', 'Silvia', 'Elisa']
+friends[2] = 'Junior'
+console.log(friends)
+
+
+let fistName = 'Joe'
+
+const email = 'Hi' + fistName + ', \nthe meeting is congirmed!' + '\nAndre.'
+
+const email2 = `Hi ${fistName}, 
+the meeting is congirmed! 
+Andre.`
+
+console.log(email)
+console.log(email2)
+
+let message = 'heym my name is Andre '
+console.log(message.includes('is'))
+
+[2, 4, 17, 30, 1]
+
+console.log(Math.max(1, 3, 15, 2, 7, 4))
+
+-------------------------------------------
+function Carro(modelo, ano, marca) {
+  this.modelo = modelo;
+  this.ano = ano;
+  this.marca = marca;
+}
+const Carro1 = new Carro('fiat', '1987', 'fiat')
+
+console.log(Carro1)
+
+
+function Carro(modelo, ano, marca) {
+  this.modelo = modelo;
+  this.ano = ano;
+  this.marca = marca;
+}
+const Carro1 = new Carro('fiat', '1987', 'fiat')
+
+console.log(Carro1)
+
 function CreatBook(title, author, pages) {
 
   this.title = title;
@@ -14,10 +83,6 @@ console.log(book1)
 console.log(book2)
 
 
-
-
-
-/*
 function creatBook(title, author, pages) {
   const book = {
     title: title,
