@@ -1,14 +1,68 @@
+function creatBook(title, author, pages) {
+  const book = {
+    title: title,
+    author: author,
+    pages: pages,
+    printBook: function () {
+      console.log('Printing...')
+    }
+  }
+  return book
+}
+const book1 = creatBook('Atmic', 'james', 300)
+const book2 = creatBook('100 anos', 'marira', 9393)
+
+book1.color = 'white'
+
+console.log(book1)
+console.log(book2)
+
+
+
+
+
+/*
+    bookChapters: {
+      chap1: 'fundamentals',
+      chap2: 'fist law',
+    },
+
+
+book.printBook()
+
+function printBook() {
+  console.log('printig...')
+}
+console.log(book)
+
+
+
+i = 1
+
+while (i <= + 10) {
+  if (i === 8) break
+  console.log('Numeo ', i)
+  i++
+}
+const friends = ['marcos', 'ana', 'jose']
+
+for (let i of friends)
+  console.log(i, friends[i])
+  
+const myCar = {
+  model: 'BMW',
+  year: 2023,
+  km: 6800
+}
+for (let i in myCar)
+  console.log(i, myCar[i])
+
 i = 1
 do {
   console.log('Numero ', i)
   i++
 
 } while (i <= 10)
-
-
-
-
-/*
 i = 1
 
 while (i <= + 10) {
