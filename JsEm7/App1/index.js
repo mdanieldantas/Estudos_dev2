@@ -333,7 +333,7 @@ let livro = {
 console.log("Este livro foi escrito por " + livro.autor)
 console.log('O livro ' + livro.titulo + ' escrito por ' + livro.autor + ' tem ' + livro.paginas + ' páginas.')
 
-// Crie um objeto pessoa que armazene informações como nome, idade e profissão. Adicione um método que imprima todas as informações da pessoa.
+// Crie um, objeto pessoa que armazene informações como nome, idade e profissão. Adicione um método que imprima todas as informações da pessoa.
 let pessoa = {
   nome: 'Anderson',
   idade: 30,
