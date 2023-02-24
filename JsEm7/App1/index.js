@@ -1,5 +1,29 @@
+i = 1
+do {
+  console.log('Numero ', i)
+  i++
 
-let siglasEstados = 'CE'
+} while (i <= 10)
+
+
+
+
+/*
+i = 1
+
+while (i <= + 10) {
+  console.log('Numeo ', i)
+  i++
+}
+
+
+// for ( vaiavel condição incremento)
+for (i = 0; i <= 10; i++) {
+  console.log('Numero ', i)
+}
+
+
+let siglasEstados = 'SP'
 
 switch (siglasEstados) {
   case 'SP':
@@ -12,7 +36,7 @@ switch (siglasEstados) {
 
 }
 
-/*
+
 
 let airportName = 'ACV'
 switch (airportName) {
