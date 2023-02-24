@@ -1,3 +1,23 @@
+function CreatBook(title, author, pages) {
+
+  this.title = title;
+  this.author = author;
+  this.pages = pages;
+
+}
+const book1 = new CreatBook('Atmic', 'james', 300)
+const book2 = new CreatBook('100 anos', 'marira', 9393)
+
+book1.color = 'white'
+
+console.log(book1)
+console.log(book2)
+
+
+
+
+
+/*
 function creatBook(title, author, pages) {
   const book = {
     title: title,
@@ -18,10 +38,6 @@ console.log(book1)
 console.log(book2)
 
 
-
-
-
-/*
     bookChapters: {
       chap1: 'fundamentals',
       chap2: 'fist law',
