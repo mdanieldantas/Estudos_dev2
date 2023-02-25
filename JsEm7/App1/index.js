@@ -1,4 +1,38 @@
+let num = [5, 6, 7, 8, 9]
+let letters = ['a', 'b', 'c']
+all = num.concat(letters)
+half = all.slice(3, 5)
+console.log(half)
+console.log(all)
+
 /*
+----------------------------------------------
+limpar uma Array
+
+let num = [5, 6, 7, 8, 9]
+
+//num = []
+//num.length = 0
+num.splice(0, num.length)
+console.log(num)
+----------------------------------------------------------------------
+const num = [5, 6, 7, 8]
+//onst final = num.pop() //tira o ultimo 
+//const final = num.shift()     // tira o primeiro
+const final = num.splice(2, 1) // a partir do index 2 remova 1 item
+console.log(num)
+console.log(final)
+--------------------------------------
+const movies = [
+  { id: 1, movieName: 'Dejavu' },
+  { id: 2, movieName: 'Back to the Future' },
+  { id: 3, movieName: 'The Matrix' }
+]
+//console.log(movies.includes({ id: 1, movieName: 'Dejavu' }))
+console.log(movies.find(movie => movie.movieName == 'The Matrix'))
+
+
+------------------------------------------
 const movies = [
   { id: 1, movieName: 'Dejavu' },
   { id: 2, movieName: 'Back to the Future' },
