@@ -2,6 +2,40 @@
 
 
 /*
+--------------------------------------
+function carloan(loan, rate, years) {
+  return (loan * rate / 100 * years)
+}
+
+console.log(carloan(20000, 2.5, 5))
+-----------------------------------
+Arguments
+
+function price() {
+  let total = 0
+  for (let value of arguments)
+    total += value
+  return total
+}
+
+console.log(price(10, 20, 30, 40, 50))
+-----------------------------------------
+// function declaration
+
+function movie() {
+  console.log('Matrix ')
+}
+movie()
+// function Expression
+const car = function () {
+  console.log('Tesla ')
+}
+car()
+
+const truck = car
+
+truck()
+---------------------------------
 const tempLodon = [18, 13, 8, 2]
 const tempPositive = tempLodon.filter(value => value >= 0)
 console.log(tempPositive)
