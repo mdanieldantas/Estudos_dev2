@@ -1,11 +1,37 @@
+
+
+
+/*
+const tempLodon = [18, 13, 8, 2]
+const tempPositive = tempLodon.filter(value => value >= 0)
+console.log(tempPositive)
+
+----------------------------------
+metodo de verificação every
+
+const tempLodon = [18, 13, 8, 2]
+const tempPositive = tempLodon.every(function(value) {
+  return value >= 0
+})
+console.log(tempPositive)
+-------------------------------------
+let clients = ['Andre', 'Jose', 'Marcela']
+//clients.sort()
+clients.reverse()
+console.log(clients)
+---------------------------
+let clients = ['Andre', 'Jose', 'Marcela']
+console.log(clients)
+
+let clientsJoin = clients.join(', ')
+console.log(clientsJoin)
+--------------------
 let num = [5, 6, 7, 8, 9]
 let letters = ['a', 'b', 'c']
 all = num.concat(letters)
 half = all.slice(3, 5)
 console.log(half)
 console.log(all)
-
-/*
 ----------------------------------------------
 limpar uma Array
 
