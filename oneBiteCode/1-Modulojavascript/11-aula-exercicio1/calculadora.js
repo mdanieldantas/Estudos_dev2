@@ -1,6 +1,23 @@
+// entrada
+let primeiroNumero = Number(prompt('Insira o primeiro numero: '))
+let segundoNumero = Number(prompt('Insira o segundo numero: '))
 
-alert('Hello World!')
-console.log("Hello World!")
+// processamento 
+let soma = primeiroNumero + segundoNumero
+let subtracao = primeiroNumero - segundoNumero
+let divisao = primeiroNumero / segundoNumero
+let multiplicacao = primeiroNumero * segundoNumero
+
+// resultado
+alert(`
+O resultado é:
+Para soma: ${soma}.
+Para subtração: ${subtracao}.
+Para divisão: ${divisao}.
+Para multiplicação: ${multiplicacao}.
+`)
+
+
 /*
 
 const primeiroNumero = prompt('Informe o primeiro numero')
