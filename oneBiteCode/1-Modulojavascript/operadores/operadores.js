@@ -1,3 +1,8 @@
+let resultado = 75 * 13 < 999 && true || (3 - 5 ≥ 0 || true) && 8 == "8"
+console.log(resultado)
+
+/*
+
 1 + 1
 console.log(1 + 1);
 console.log((3 + 3) * 3)
@@ -17,7 +22,7 @@ console.log(b)
 
 
 
-/*
+
 Em JavaScript existem vários tipos de operadores, aqui estão alguns deles:
 
 Operadores Aritméticos: +, -, *, /, %, ++, --
