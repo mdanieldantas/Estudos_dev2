@@ -1,36 +1,32 @@
 
 function controleFinanceiro() {
   // declaração de váriaveis
-  let dinheiroInicial = Number(prompt('Insira a sua quantia inicial de dinheiro: '))
-  let dinheiroDeposito = ""
-  let dinheiroSaque = ""
+  let saldo = parseFloat(prompt('Insira a sua quantia inicial de dinheiro: '))
+  let continuarOpcao = ''
+
+
   do {
-    let continuar = prompt(`
-Você tem ${dinheiroInicial} reais.
+    continuarOpcao = prompt(`
+Saldo disponível: R$ ${saldo} reais.
 Gostaria de:
 1. Depositar.
 2. Sacar.
 3. Sair.
 `)
-    switch (continuar) {
+    switch (continuarOpcao) {
       case '1':
-        let dinheiroDeposito = Number(prompt('Insira quanto deseja depositar: '))
-        alert('Seu novo saldo é de: ' + Number(dinheiroDeposito + dinheiroInicial))
+        saldo += parseFloat(prompt('Informe o valor a ser depositado: '))
         break
       case '2':
-        let dinheiroSaque = Number(prompt('Insira quanto deseja sacar: '))
-        alert('Seu novo saldo é de: ' + Number(dinheiroInicial - dinheiroSaque))
+        saldo -= parseFloat(prompt('Informe o valor a ser sacado: '))
         break
       case '3':
-        alert('Você escolheu sair, obrigado pela preferencia!')
+        alert('Encerrando...')
         break
       default:
-        alert('Opção invalida!')
-
+        alert('Opção inválida, tente novamente.')
     }
-  } while (condition) {
-
-  }
+  } while (continuarOpcao !== '3')
 
 }
 
@@ -86,4 +82,30 @@ Escreva um programa em javascript que comece perguntando pela quantidade inicial
 e então mostre na tela essa quantidade juntamente com as opções de adicionar e remover dinheiro e uma opção de sair. 
 
 Ao clicar na opção de adicionar dinheiro o programa deve perguntar pela quantidade a ser adicionada, 
-somar esse valor com a quantidade inicial e então mostrar novamente o menu com a quantidade de dinheiro e as opções. A opção de remover dinheiro deve fazer o mesmo, porém subtraindo o valor. A opção de sair deve encerrar o programa */
+somar esse valor com a quantidade inicial e então mostrar novamente o menu com a quantidade de dinheiro e as opções. A opção de remover dinheiro deve fazer o mesmo, porém subtraindo o valor. A opção de sair deve encerrar o programa 
+
+
+
+
+  let dinheiroDeposito = ""
+  let dinheiroSaque = ""
+
+      case '1':
+        let dinheiroDeposito = Number(prompt('Insira quanto deseja depositar: '))
+        alert('Seu novo saldo é de: R$ ' + Number(dinheiroDeposito + saldo) + ' reais.')
+        break
+      case '2':
+        let dinheiroSaque = Number(prompt('Insira quanto deseja sacar: ') + ' reais.')
+        alert('Seu novo saldo é de: R$ ' + Number(saldo - dinheiroSaque))
+        break
+      case '3':
+        alert('Você escolheu sair, obrigado pela preferencia!')
+        break
+      default:
+        alert('Opção invalida!')
+
+
+
+
+
+*/
