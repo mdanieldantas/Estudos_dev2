@@ -1,5 +1,5 @@
-const imprimirResultado = function(nota) {
-    if(nota >= 7) {
+const imprimirResultado = function (nota) {
+    if (nota >= 7) {
         console.log('Aprovado!')
     } else {
         console.log('Reprovado!')
@@ -9,3 +9,7 @@ const imprimirResultado = function(nota) {
 imprimirResultado(10)
 imprimirResultado(4)
 imprimirResultado('Epa!') // cuidado!!!
+
+/*
+
+*/
