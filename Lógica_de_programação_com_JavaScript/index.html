@@ -1,13 +1,46 @@
 <h1>Lógica de programação com JavaScript</h1>
 
 <script>
+  /*
   // toda função tem abrir e fechar de parenteses
+
   // output
   // alert("Mensagem");
   // console.log("oieeee efff e");
   //document.write("nutela");
 
   // Imputs
-  var nome = prompt("escreva seu nome");
-  alert(nome);
+  // prompt()
+
+  var nome = prompt("insira seu nome");
+  alert("Bem vindo Sr " + nome);
+
+  var nota1 = parseFloat(prompt("Digite sua primeira nota."));
+  var nota2 = parseFloat(prompt("Digite sua segunda nota."));
+  var nota3 = parseFloat(prompt("Digite sua terceira nota."));
+  var nota4 = parseFloat(prompt("Digite sua quarta nota."));
+
+  var soma = (nota1 + nota2 + nota3 + nota4).toFixed(2);
+  var media = (soma / 4).toFixed(2);
+
+  document.write("A soma das suas notas é " + soma + "<br>");
+  document.write(" A sua media é: " + media + "<br>");
+
+  // se a media for menor que 6 Você está reprovado!
+  // Se a media for maior que 6 Você está aprovado!
+
+  if (media < 6) {
+    document.write("Você está reprovado!");
+    // se der verdade cai aqui
+  } else {
+    document.write("Você está Aprovado!");
+    // senão, caia aqui também
+  }
+  */
+
+  // ARRAY: usado para criar listas e coleções
+  var carros = ["Ferrari", "Honda", "Ford"];
+  console.log(carros[0]); // Ferrari - mostra o elemento do indice 0
+
+  var pessoa = { nome: "Maria", idade: 28, programadora: false };
 </script>

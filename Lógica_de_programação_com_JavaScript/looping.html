@@ -1,0 +1,12 @@
+<script>
+  var numero = parseFloat(prompt("Digite um numero que deseja multiplicar: "));
+  var multiplicador = parseFloat(
+    prompt("Digite ate quanto deseja multiplicar: ")
+  );
+  calculartabuada(numero, multiplicador);
+  function calculartabuada(numero, multiplicador) {
+    for (var index = 0; index < multiplicador; index++) {
+      document.write(numero + "x" + index + "=" + numero * index + "<br>");
+    }
+  }
+</script>
