@@ -1,0 +1,79 @@
+Entendido! Vou fornecer alguns exercícios de lógica de programação para iniciantes com o tema "if" e "else". Em seguida, fornecerei a forma correta de resolver cada exercício passo a passo.
+
+Exercícios:
+
+Faça um programa que peça dois números e verifique (usando if e else) e imprima o maior deles.
+
+Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+Faça um programa que verifique (usando if e else) se uma letra digitada é "F" ou "M". Conforme a letra escrever: F – Feminino, M - Masculino, Sexo inválido.
+
+Faça um programa que verifique (usando if e else) se uma letra digitada é vogal ou consoante.
+
+Faça um programa para a leitura de duas notas parciais de um aluno:
+
+A mensagem "Aprovado", se a média alcançada for maior ou igual a sete.
+A mensagem "Aprovado com Distinção", se a média for igual a dez.
+A mensagem "Reprovado" se a média for menor do que sete.
+Faça um programa que leia três números, verifique (usando if e else) e mostre o maior deles.
+
+Faça um programa que leia três números, verifique (usando if e else) e mostre o maior e o menor deles.
+
+Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre o mais barato.
+
+Faça um programa que leia três números e mostre-os em ordem decrescente.
+
+Faça um programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-vespertino ou N-noturno. Imprima a mensagem "Bom dia!" ou "Boa Noite" ou "Valor inválido".
+
+Formas corretas de resolver os exercícios passo a passo:
+
+Para resolver o exercício 1, você precisa:
+
+Solicitar ao usuário a entrada de dois números.
+Usar um bloco "if" para comparar os números.
+Imprimir o maior número.
+Para resolver o exercício 2, você precisa:
+
+Solicitar ao usuário a entrada de um número.
+Usar um bloco "if" para verificar se o número é maior que zero (positivo) ou menor que zero (negativo).
+Imprimir a mensagem correspondente.
+Para resolver o exercício 3, você precisa:
+
+Solicitar ao usuário a entrada de uma letra.
+Usar um bloco "if" e "else" para verificar se a letra é "F" ou "M".
+Imprimir a mensagem correspondente.
+Para resolver o exercício 4, você precisa:
+
+Solicitar ao usuário a entrada de uma letra.
+Usar um bloco "if" e "else" para verificar se a letra é uma vogal ou consoante.
+Imprimir a mensagem correspondente.
+Para resolver o exercício 5, você precisa:
+
+Solicitar ao usuário a entrada das duas notas parciais.
+Calcular a média das notas.
+Usar um bloco "if" e "else" para verificar as condições da média e imprimir a mensagem apropriada.
+Para resolver o exercício 6, você precisa:
+
+Solicitar ao usuário a entrada de três números.
+Usar múltiplos blocos "if" e "else" para comparar os números e encontrar o maior deles.
+Imprimir o maior número.
+Para resolver o exercício 7, você precisa:
+
+Solicitar ao usuário a entrada de três números.
+Usar múltiplos blocos "if" e "else" para comparar os números e encontrar o maior e o menor deles.
+Imprimir o maior e o menor número.
+Para resolver o exercício 8, você precisa:
+
+Solicitar ao usuário a entrada do preço de três produtos.
+Usar múltiplos blocos "if" e "else" para comparar os preços e encontrar o mais barato.
+Imprimir o produto mais barato.
+Para resolver o exercício 9, você precisa:
+
+Solicitar ao usuário a entrada de três números.
+Usar múltiplos blocos "if" e "else" para ordenar os números em ordem decrescente.
+Imprimir os números em ordem decrescente.
+Para resolver o exercício 10, você precisa:
+
+Solicitar ao usuário a entrada do turno em que estuda.
+Usar um bloco "if" e "else" para verificar o turno e imprimir a mensagem correspondente.
+Lembre-se de adaptar os exercícios a qualquer linguagem de programação que você preferir, seguindo as regras e dicas fornecidas. Agora você tem uma boa base para praticar lógica de programação com o tema "if" e "else"! 2
