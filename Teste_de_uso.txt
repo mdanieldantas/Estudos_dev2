@@ -1,0 +1,17 @@
+
+Uma tabela de teste de uso, também conhecida como matriz de teste ou tabela de casos de uso, é uma ferramenta usada no desenvolvimento de software para documentar e organizar diferentes cenários de teste. Esses cenários são projetados para testar várias funcionalidades e fluxos de um sistema ou aplicativo, a fim de verificar se ele está se comportando conforme o esperado.
+
+A tabela de teste de uso geralmente inclui as seguintes informações para cada caso de teste:
+
+Caso de Teste: Uma descrição ou identificação única do caso de teste.
+Descrição: Uma explicação detalhada do cenário ou função que está sendo testada.
+Dados de Entrada: Os valores ou dados que serão inseridos no sistema como parte do teste.
+Ações: As etapas ou ações que o testador deve executar para realizar o cenário de teste.
+Resultado Esperado: A descrição do resultado que se espera obter após a execução bem-sucedida do caso de teste.
+Resultado Real: O resultado real observado após a execução do caso de teste.
+Status: O resultado do teste, como "Passou", "Falhou" ou "Pendente".
+Observações: Qualquer observação adicional, comentários ou informações relevantes sobre o teste.
+Essa tabela é uma ferramenta valiosa para garantir que diferentes cenários de uso do software sejam testados de forma sistemática e abrangente. Ela ajuda a documentar as condições de teste, a entrada de dados, as expectativas de saída e o resultado real. Isso é especialmente útil para equipes de desenvolvimento e testes, pois permite que eles acompanhem o progresso dos testes, identifiquem problemas e melhorem a qualidade do software.
+
+Aqui está um exemplo simplificado de como uma tabela de teste de uso pode ser estruturada:
+
