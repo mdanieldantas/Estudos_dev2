@@ -1,4 +1,6 @@
 algoritmo "Creuza parcelas"
+//  
+//  
 // Função :
 // Autor :
 // Data : 12/08/2023
