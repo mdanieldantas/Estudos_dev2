@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>JavaScript</title>
+</head>
+<body>
+<form name="Formulario">
+  R$ por Hora: R$ 
+  <input type="text" name="RHora" size="10"><BR>Horas Trabalho:&nbsp; 
+  <input type="text" name="Horas" size="5"><BR>Porcentagem:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  <input type="text" name="Porcentagem" size="3">% (INSS)<p>&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="submit" value="Salário Líquido..." name="Calcular" onclick="Calcula()"></p>
+</form>
+<Script Language="JavaScript">
+<!--
+	/* Script de Soma */	
+	var VH, H, INSS, R1, R2, R3;	
+	function Calcula() {
+		VH = document.Formulario.RHora.value;
+		H = document.Formulario.Horas.value;
+		INSS = document.Formulario.Porcentagem.value;		
+		R1 = parseFloat(VH) * parseFloat(H);
+		R2 = (parseFloat(INSS) / 100) * R1;
+		R3 = R1 - R2;
+		alert('Salário Líquido = R$' + R3);		
+	    /* document.write('Salário Líquido = R$', R3); */		
+	}
+//-->
+</Script>
+</body>
+</html>
