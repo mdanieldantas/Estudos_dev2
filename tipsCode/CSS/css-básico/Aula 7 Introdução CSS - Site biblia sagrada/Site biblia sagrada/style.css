@@ -1,0 +1,30 @@
+/*Seção de Tags */
+body {
+  background-color: white;
+}
+
+h1 {
+  color: blue;
+}
+
+/*Seção de Classes*/
+.biblia {
+  width: 40%;
+  background-color: red;
+}
+
+.cruz-circulo {
+  width: 5%;
+  background-color: red;
+}
+
+/* Seletores ID */
+#cabeçalho {
+  color: springgreen;
+}
+
+#cabeçalho:hover {
+  color: black;
+}
+
+/* */

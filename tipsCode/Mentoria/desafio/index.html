@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <h1>Sorteio de nomes</h1>
+    <button class="button" onclick="namesRandom()">Sortear agora</button>
+
+    <div class="txt">
+      <span></span>
+    </div>
+  </main>
+</body>
+
+<script>
+  let names = [`Jesus`, `João`, `Rei Davi`, `Moises`, `Elias`, `Esaú`, `Daniel`, `Francico`]
+
+  function namesRandom() {
+    console.log(names.length)
+    const indexNames = Math.floor(Math.random() * names.length)
+    console.log(indexNames)
+
+    const txt = document.querySelectorAll(`.txt`)
+    alert(txt)
+    txt.innerText = names[indexNames]
+
+  }
+</script>
+
+</html>
