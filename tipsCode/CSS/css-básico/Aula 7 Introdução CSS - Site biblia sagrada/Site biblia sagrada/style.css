@@ -9,13 +9,22 @@ h1 {
 
 /*Seção de Classes*/
 .biblia {
-  width: 40%;
+
   background-color: red;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 20px;
+  position: relative;
+  right: 30px;
+
 }
 
 .cruz-circulo {
   width: 5%;
   background-color: red;
+  border: 5px solid black;
 }
 
 /* Seletores ID */
